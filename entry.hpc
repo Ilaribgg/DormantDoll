@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Content Version="1.0"
+	Type="StandAlone"
+	Title="Dormant Doll"
+	Author="TeamSD"
+	Description_english="Stand alone mod for Amnesia Rebirth"
+	LauncherPic="LauncherPic.png"
+	
+	InitCfg="config/main_init.cfg"
+/>
+

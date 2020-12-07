@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="dormantdoll" Version="10.0.0" InternalType="">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="dormantdoll">
+    <File Name="resources.cfg"/>
+    <File Name="lookupdirs.cfg"/>
+    <File Name="entry.hpc"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="config">
+    <File Name="config/main_init.cfg"/>
+    <VirtualDirectory Name="lang">
+      <File Name="config/lang/english.lang"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="maps">
+    <VirtualDirectory Name="sample_map">
+      <File Name="maps/sample_map/sample_map.hps"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="rebirth_maps">
+    <File Name="../../maps/global_voice.lang"/>
+    <File Name="../../maps/global_init.hps"/>
+    <VirtualDirectory Name="main_menu">
+      <File Name="../../maps/main_menu/main_menu.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="chapter_04">
+      <VirtualDirectory Name="04_05_darkworld">
+        <File Name="../../maps/chapter_04/04_05_darkworld/04_05_darkworld.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="04_04_paris">
+        <File Name="../../maps/chapter_04/04_04_paris/04_04_paris.lang"/>
+        <File Name="../../maps/chapter_04/04_04_paris/04_04_paris.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="04_03_undercity_b">
+        <File Name="../../maps/chapter_04/04_03_undercity_b/04_03_undercity_b.lang"/>
+        <File Name="../../maps/chapter_04/04_03_undercity_b/04_03_undercity_b.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="04_03_undercity">
+        <File Name="../../maps/chapter_04/04_03_undercity/04_03_undercity.lang"/>
+        <File Name="../../maps/chapter_04/04_03_undercity/04_03_undercity.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="04_02_sandstorm">
+        <File Name="../../maps/chapter_04/04_02_sandstorm/04_02_sandstorm.lang"/>
+        <File Name="../../maps/chapter_04/04_02_sandstorm/04_02_sandstorm.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="04_01_town">
+        <File Name="../../maps/chapter_04/04_01_town/04_01_town.lang"/>
+        <File Name="../../maps/chapter_04/04_01_town/04_01_town.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="chapter_03">
+      <VirtualDirectory Name="03_07_dw_factory_dream">
+        <File Name="../../maps/chapter_03/03_07_dw_factory_dream/03_07_dw_factory_dream.lang"/>
+        <File Name="../../maps/chapter_03/03_07_dw_factory_dream/03_07_dw_factory_dream.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_07_dwf_d_factory">
+        <File Name="../../maps/chapter_03/03_07_dwf_d_factory/03_07_dwf_d_factory.lang"/>
+        <File Name="../../maps/chapter_03/03_07_dwf_d_factory/03_07_dwf_d_factory.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_07_dwf_c_factory">
+        <File Name="../../maps/chapter_03/03_07_dwf_c_factory/03_07_dwf_c_factory.lang"/>
+        <File Name="../../maps/chapter_03/03_07_dwf_c_factory/03_07_dwf_c_factory.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_07_dwf_b_rnd">
+        <File Name="../../maps/chapter_03/03_07_dwf_b_rnd/03_07_dwf_b_rnd.lang"/>
+        <File Name="../../maps/chapter_03/03_07_dwf_b_rnd/03_07_dwf_b_rnd.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_07_dwf_a_theatre">
+        <File Name="../../maps/chapter_03/03_07_dwf_a_theatre/03_07_dwf_a_theatre.lang"/>
+        <File Name="../../maps/chapter_03/03_07_dwf_a_theatre/03_07_dwf_a_theatre.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_06_ghouls_nest">
+        <File Name="../../maps/chapter_03/03_06_ghouls_nest/03_06_ghouls_nest.lang"/>
+        <File Name="../../maps/chapter_03/03_06_ghouls_nest/03_06_ghouls_nest.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_05_vitae_station">
+        <File Name="../../maps/chapter_03/03_05_vitae_station/03_05_vitae_station.lang"/>
+        <File Name="../../maps/chapter_03/03_05_vitae_station/03_05_vitae_station.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_04_pillar_room">
+        <File Name="../../maps/chapter_03/03_04_pillar_room/03_04_pillar_room.lang"/>
+        <File Name="../../maps/chapter_03/03_04_pillar_room/03_04_pillar_room.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_03_herberts_hq_b">
+        <File Name="../../maps/chapter_03/03_03_herberts_hq_b/03_03_herberts_hq_b.lang"/>
+        <File Name="../../maps/chapter_03/03_03_herberts_hq_b/03_03_herberts_hq_b.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="03_03_herberts_hq_a">
+        <File Name="../../maps/chapter_03/03_03_herberts_hq_a/03_03_herberts_hq_a.lang"/>
+        <File Name="../../maps/chapter_03/03_03_herberts_hq_a/03_03_herberts_hq_a.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="chapter_02">
+      <VirtualDirectory Name="02_07_alchemists_lab_dream">
+        <File Name="../../maps/chapter_02/02_07_alchemists_lab_dream/02_07_alchemists_lab_dream.lang"/>
+        <File Name="../../maps/chapter_02/02_07_alchemists_lab_dream/02_07_alchemists_lab_dream.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_07_alchemists_lab">
+        <File Name="../../maps/chapter_02/02_07_alchemists_lab/02_07_alchemists_lab.lang"/>
+        <File Name="../../maps/chapter_02/02_07_alchemists_lab/02_07_alchemists_lab.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_06_oasis">
+        <File Name="../../maps/chapter_02/02_06_oasis/02_06_oasis.lang"/>
+        <File Name="../../maps/chapter_02/02_06_oasis/02_06_oasis.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_05_cistern">
+        <File Name="../../maps/chapter_02/02_05_cistern/02_05_cistern.lang"/>
+        <File Name="../../maps/chapter_02/02_05_cistern/02_05_cistern.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_04_living_quarters">
+        <File Name="../../maps/chapter_02/02_04_living_quarters/02_04_living_quarters.lang"/>
+        <File Name="../../maps/chapter_02/02_04_living_quarters/02_04_living_quarters.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_03_arsenal">
+        <File Name="../../maps/chapter_02/02_03_arsenal/02_03_arsenal.lang"/>
+        <File Name="../../maps/chapter_02/02_03_arsenal/02_03_arsenal.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_02_courtyard">
+        <File Name="../../maps/chapter_02/02_02_courtyard/02_02_courtyard.lang"/>
+        <File Name="../../maps/chapter_02/02_02_courtyard/02_02_courtyard.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="02_01_path_to_outpost">
+        <File Name="../../maps/chapter_02/02_01_path_to_outpost/02_01_path_to_outpost.lang"/>
+        <File Name="../../maps/chapter_02/02_01_path_to_outpost/02_01_path_to_outpost.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="chapter_01">
+      <VirtualDirectory Name="01_04_dark_world_ledge_dream">
+        <File Name="../../maps/chapter_01/01_04_dark_world_ledge_dream/01_04_dark_world_ledge_dream.lang"/>
+        <File Name="../../maps/chapter_01/01_04_dark_world_ledge_dream/01_04_dark_world_ledge_dream.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_04_dark_world_ledge">
+        <File Name="../../maps/chapter_01/01_04_dark_world_ledge/01_04_dark_world_ledge.lang"/>
+        <File Name="../../maps/chapter_01/01_04_dark_world_ledge/01_04_dark_world_ledge.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_02_caves_b">
+        <File Name="../../maps/chapter_01/01_02_caves_b/01_02_caves_b.lang"/>
+        <File Name="../../maps/chapter_01/01_02_caves_b/01_02_caves_b.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_02_caves">
+        <File Name="../../maps/chapter_01/01_02_caves/01_02_caves.lang"/>
+        <File Name="../../maps/chapter_01/01_02_caves/01_02_caves.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_01_plane_wreckage">
+        <File Name="../../maps/chapter_01/01_01_plane_wreckage/01_01_plane_wreckage.lang"/>
+        <File Name="../../maps/chapter_01/01_01_plane_wreckage/01_01_plane_wreckage.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_00_intro">
+        <File Name="../../maps/chapter_01/01_00_intro/01_00_intro.lang"/>
+        <File Name="../../maps/chapter_01/01_00_intro/01_00_intro.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="rebirth_script">
+    <VirtualDirectory Name="utilities">
+      <File Name="../../script/utilities/Utility_Throw.hps"/>
+      <File Name="../../script/utilities/Utility_Readables.hps"/>
+      <File Name="../../script/utilities/Utility_PickBasics.hps"/>
+      <File Name="../../script/utilities/Utility_ModEventTracker.hps"/>
+      <File Name="../../script/utilities/Utility_JointFix.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="props">
+      <File Name="../../script/props/Prop_Wheel.hps"/>
+      <File Name="../../script/props/Prop_Tool.hps"/>
+      <File Name="../../script/props/Prop_Terminal.hps"/>
+      <File Name="../../script/props/Prop_Tear.hps"/>
+      <File Name="../../script/props/Prop_SwingDoor.hps"/>
+      <File Name="../../script/props/Prop_SlideDoor.hps"/>
+      <File Name="../../script/props/Prop_Slide.hps"/>
+      <File Name="../../script/props/Prop_Rigid.hps"/>
+      <File Name="../../script/props/Prop_Readable.hps"/>
+      <File Name="../../script/props/Prop_Push.hps"/>
+      <File Name="../../script/props/Prop_PlayerHands.hps"/>
+      <File Name="../../script/props/Prop_PlayerBody.hps"/>
+      <File Name="../../script/props/Prop_PhysicsSlideDoor.hps"/>
+      <File Name="../../script/props/Prop_MultiSlider.hps"/>
+      <File Name="../../script/props/Prop_MovingButton.hps"/>
+      <File Name="../../script/props/Prop_MoveObject.hps"/>
+      <File Name="../../script/props/Prop_Meter.hps"/>
+      <File Name="../../script/props/Prop_Lever.hps"/>
+      <File Name="../../script/props/Prop_LevelDoor.hps"/>
+      <File Name="../../script/props/Prop_Lamp.hps"/>
+      <File Name="../../script/props/Prop_HudObject.hps"/>
+      <File Name="../../script/props/Prop_Helper_Climbing.hps"/>
+      <File Name="../../script/props/Prop_HandheldTerminal.hps"/>
+      <File Name="../../script/props/Prop_Grab.hps"/>
+      <File Name="../../script/props/Prop_Button.hps"/>
+      <File Name="../../script/props/Prop_Animated.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="player">
+      <File Name="../../script/player/Player_Types.hps"/>
+      <File Name="../../script/player/PlayerState_Sit.hps"/>
+      <File Name="../../script/player/PlayerState_Null.hps"/>
+      <File Name="../../script/player/PlayerState_Normal.hps"/>
+      <File Name="../../script/player/PlayerState_Ladder.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_ZoomArea.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Wheel.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Terminal.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Tear.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_SwingDoor.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Slide.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_RotateBase.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Read.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Push.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_MovingButton.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Lever.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_HandheldTerminal.hps"/>
+      <File Name="../../script/player/PlayerState_Interact_Grab.hps"/>
+      <File Name="../../script/player/PlayerState_InteractiveCutsceneAnimation.hps"/>
+      <File Name="../../script/player/PlayerState_InteractiveCameraAnimation.hps"/>
+      <File Name="../../script/player/PlayerState_Interact.hps"/>
+      <File Name="../../script/player/PlayerState_Hide.hps"/>
+      <File Name="../../script/player/PlayerState_Dead.hps"/>
+      <File Name="../../script/player/PlayerState_CutsceneAnimation.hps"/>
+      <File Name="../../script/player/PlayerState_CustomControls.hps"/>
+      <File Name="../../script/player/PlayerState_Conversation.hps"/>
+      <File Name="../../script/player/PlayerState_ClimbLedge.hps"/>
+      <File Name="../../script/player/Player.hps"/>
+      <File Name="../../script/player/MoveState_Normal.hps"/>
+      <File Name="../../script/player/MoveState_Dead.hps"/>
+      <File Name="../../script/player/MoveState_Climb.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="modules">
+      <File Name="../../script/modules/VerletAnimationHandler.hps"/>
+      <File Name="../../script/modules/TerrainParticleHandler.hps"/>
+      <File Name="../../script/modules/PlayerToolHandler.hps"/>
+      <File Name="../../script/modules/PlayerPickupHandler.hps"/>
+      <File Name="../../script/modules/PlayerHandsHandler.hps"/>
+      <File Name="../../script/modules/PlayerBodyHandler.hps"/>
+      <File Name="../../script/modules/PlayerBodyAnimationStates.hps"/>
+      <File Name="../../script/modules/ModuleInterfaces.hps"/>
+      <File Name="../../script/modules/ModEventHandler.hps"/>
+      <File Name="../../script/modules/MapEffectsHandler.hps"/>
+      <File Name="../../script/modules/LoadScreensHandler.hps"/>
+      <File Name="../../script/modules/LightFlashHandler.hps"/>
+      <File Name="../../script/modules/HintHandler.hps"/>
+      <File Name="../../script/modules/HighlightEffectHandler.hps"/>
+      <File Name="../../script/modules/GameOverHandler.hps"/>
+      <File Name="../../script/modules/FlashlightHandler.hps"/>
+      <File Name="../../script/modules/EyeTrackingHandler.hps"/>
+      <File Name="../../script/modules/DistortionEffectsHandler.hps"/>
+      <File Name="../../script/modules/DescriptionHandler.hps"/>
+      <File Name="../../script/modules/DebugDrawHandler.hps"/>
+      <File Name="../../script/modules/CreditsHandler.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="interfaces">
+      <File Name="../../script/interfaces/UsersHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/UserModule_Interface.hps"/>
+      <File Name="../../script/interfaces/UserComponent_Interface.hps"/>
+      <File Name="../../script/interfaces/RichPresenceHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/PushableFogArea_Interface.hps"/>
+      <File Name="../../script/interfaces/Prop_Interface.hps"/>
+      <File Name="../../script/interfaces/Player_Interface.hps"/>
+      <File Name="../../script/interfaces/PlayerState_Interface.hps"/>
+      <File Name="../../script/interfaces/MoveState_Interface.hps"/>
+      <File Name="../../script/interfaces/Map_Interface.hps"/>
+      <File Name="../../script/interfaces/LiquidArea_Interface.hps"/>
+      <File Name="../../script/interfaces/InputHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/HeroStatsHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/GuiSet_Interface.hps"/>
+      <File Name="../../script/interfaces/GuiHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/EventDatabaseHandler_Interface.hps"/>
+      <File Name="../../script/interfaces/Effect_Interface.hps"/>
+      <File Name="../../script/interfaces/Critter_Interface.hps"/>
+      <File Name="../../script/interfaces/Area_Interface.hps"/>
+      <File Name="../../script/interfaces/Agent_Interface.hps"/>
+      <File Name="../../script/interfaces/AchievementHandler_Interface.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="helpers">
+      <File Name="../../script/helpers/helper_sequences.hps"/>
+      <File Name="../../script/helpers/helper_props.hps"/>
+      <File Name="../../script/helpers/helper_player.hps"/>
+      <File Name="../../script/helpers/helper_physics.hps"/>
+      <File Name="../../script/helpers/helper_modules.hps"/>
+      <File Name="../../script/helpers/helper_map.hps"/>
+      <File Name="../../script/helpers/helper_imgui.hps"/>
+      <File Name="../../script/helpers/helper_general.hps"/>
+      <File Name="../../script/helpers/helper_game.hps"/>
+      <File Name="../../script/helpers/helper_flashlight.hps"/>
+      <File Name="../../script/helpers/helper_eventdb.hps"/>
+      <File Name="../../script/helpers/helper_effects.hps"/>
+      <File Name="../../script/helpers/helper_distortioneffects.hps"/>
+      <File Name="../../script/helpers/helper_components.hps"/>
+      <File Name="../../script/helpers/helper_audio.hps"/>
+      <File Name="../../script/helpers/helper_areas.hps"/>
+      <File Name="../../script/helpers/helper_ai.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="effects">
+      <File Name="../../script/effects/Effect_VideoDistortion.hps"/>
+      <File Name="../../script/effects/Effect_ToneMapping.hps"/>
+      <File Name="../../script/effects/Effect_TimeGlitch.hps"/>
+      <File Name="../../script/effects/Effect_Sway.hps"/>
+      <File Name="../../script/effects/Effect_Shake.hps"/>
+      <File Name="../../script/effects/Effect_Screen.hps"/>
+      <File Name="../../script/effects/Effect_Roll_Shake.hps"/>
+      <File Name="../../script/effects/Effect_RadialBlur.hps"/>
+      <File Name="../../script/effects/Effect_LucidityMeter.hps"/>
+      <File Name="../../script/effects/Effect_LensDistortion.hps"/>
+      <File Name="../../script/effects/Effect_Insanity.hps"/>
+      <File Name="../../script/effects/Effect_ImageTrail.hps"/>
+      <File Name="../../script/effects/Effect_ImageFadeFX.hps"/>
+      <File Name="../../script/effects/Effect_Gamepad.hps"/>
+      <File Name="../../script/effects/Effect_FOV_Shake.hps"/>
+      <File Name="../../script/effects/Effect_Flash.hps"/>
+      <File Name="../../script/effects/Effect_DoF.hps"/>
+      <File Name="../../script/effects/Effect_ChromaticAberration.hps"/>
+      <File Name="../../script/effects/Effect_Blur.hps"/>
+      <File Name="../../script/effects/Effects.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="custom">
+      <VirtualDirectory Name="props">
+        <File Name="../../script/custom/props/_Temp_Prop_WaterGunCollider.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_Shot.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_Resize.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_Flammable.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_ExplodingBall.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_Burn.hps"/>
+        <File Name="../../script/custom/props/_Temp_Prop_Bullet.hps"/>
+        <File Name="../../script/custom/props/Temp_Prop_RockShot.hps"/>
+        <File Name="../../script/custom/props/Temp_Prop_Floaty.hps"/>
+        <File Name="../../script/custom/props/Temp_Prop_Flammable.hps"/>
+        <File Name="../../script/custom/props/Temp_Prop_BallProjectile.hps"/>
+        <File Name="../../script/custom/props/Prop_VineCover.hps"/>
+        <File Name="../../script/custom/props/Prop_TorturePod.hps"/>
+        <File Name="../../script/custom/props/Prop_TestRope.hps"/>
+        <File Name="../../script/custom/props/Prop_SlideLock.hps"/>
+        <File Name="../../script/custom/props/Prop_SleepingGhoul.hps"/>
+        <File Name="../../script/custom/props/Prop_SketchbookReadable.hps"/>
+        <File Name="../../script/custom/props/Prop_Rotate.hps"/>
+        <File Name="../../script/custom/props/Prop_RigidGhoul.hps"/>
+        <File Name="../../script/custom/props/Prop_Rift.hps"/>
+        <File Name="../../script/custom/props/Prop_Radio.hps"/>
+        <File Name="../../script/custom/props/Prop_PushAnimated.hps"/>
+        <File Name="../../script/custom/props/Prop_PowerReceiver.hps"/>
+        <File Name="../../script/custom/props/Prop_PowerExtender.hps"/>
+        <File Name="../../script/custom/props/Prop_PowerEmitter.hps"/>
+        <File Name="../../script/custom/props/Prop_PickupDynamic.hps"/>
+        <File Name="../../script/custom/props/Prop_Pickup.hps"/>
+        <File Name="../../script/custom/props/Prop_MonkeyDollHand.hps"/>
+        <File Name="../../script/custom/props/Prop_MemoryCylinder.hps"/>
+        <File Name="../../script/custom/props/Prop_Match_Old.hps"/>
+        <File Name="../../script/custom/props/Prop_Match.hps"/>
+        <File Name="../../script/custom/props/Prop_Lantern.hps"/>
+        <File Name="../../script/custom/props/Prop_Headtracker.hps"/>
+        <File Name="../../script/custom/props/Prop_FollowSpot.hps"/>
+        <File Name="../../script/custom/props/Prop_Flare.hps"/>
+        <File Name="../../script/custom/props/Prop_DWReadable.hps"/>
+        <File Name="../../script/custom/props/Prop_DoorBar.hps"/>
+        <File Name="../../script/custom/props/Prop_CurseRadiator.hps"/>
+        <File Name="../../script/custom/props/Prop_CurseMedallionHand.hps"/>
+        <File Name="../../script/custom/props/Prop_Baby.hps"/>
+        <File Name="../../script/custom/props/Prop_AlchemistsLabPillar.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="player">
+        <File Name="../../script/custom/player/Player_Custom.hps"/>
+        <File Name="../../script/custom/player/PlayerTypes_Custom.hps"/>
+        <File Name="../../script/custom/player/PlayerState_UsingRadio.hps"/>
+        <File Name="../../script/custom/player/PlayerState_UsingItem.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Thrown.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Struggle.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Slide.hps"/>
+        <File Name="../../script/custom/player/PlayerState_ReadMemoryCylinder.hps"/>
+        <File Name="../../script/custom/player/PlayerState_PermaFail.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Normal_Custom.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Inventory.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Drinking.hps"/>
+        <File Name="../../script/custom/player/PlayerState_CheckBaby.hps"/>
+        <File Name="../../script/custom/player/PlayerState_Birth.hps"/>
+        <File Name="../../script/custom/player/MoveState_Swim.hps"/>
+        <File Name="../../script/custom/player/MoveState_Normal_Custom.hps"/>
+        <File Name="../../script/custom/player/MoveState_Animated.hps"/>
+        <File Name="../../script/custom/player/ItemCallbacks.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="modules">
+        <File Name="../../script/custom/modules/TerrorHandler.hps"/>
+        <File Name="../../script/custom/modules/StruggleFlashHandler.hps"/>
+        <File Name="../../script/custom/modules/SketchbookUIHandler.hps"/>
+        <File Name="../../script/custom/modules/ShadowFleshHandler.hps"/>
+        <File Name="../../script/custom/modules/RiftHandler.hps"/>
+        <File Name="../../script/custom/modules/PregHandler.hps"/>
+        <File Name="../../script/custom/modules/PlayerEmotionHandler.hps"/>
+        <File Name="../../script/custom/modules/PlayerBodyHandler_Custom.hps"/>
+        <File Name="../../script/custom/modules/PlayerBodyAnimationStates_Custom.hps"/>
+        <File Name="../../script/custom/modules/ModuleInterfaces_Custom.hps"/>
+        <File Name="../../script/custom/modules/MenuHandler.hps"/>
+        <File Name="../../script/custom/modules/ItemHandler.hps"/>
+        <File Name="../../script/custom/modules/HeatHandler.hps"/>
+        <File Name="../../script/custom/modules/GhoulProgressionHandler.hps"/>
+        <File Name="../../script/custom/modules/FontHandler.hps"/>
+        <File Name="../../script/custom/modules/FearHandler.hps"/>
+        <File Name="../../script/custom/modules/DreamHandler.hps"/>
+        <File Name="../../script/custom/modules/DeathHandler.hps"/>
+        <File Name="../../script/custom/modules/DarkWorldPowerHandler.hps"/>
+        <File Name="../../script/custom/modules/AgentBlackboard.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="helpers">
+        <File Name="../../script/custom/helpers/helper_props_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_player_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_modules_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_menu.hps"/>
+        <File Name="../../script/custom/helpers/helper_items.hps"/>
+        <File Name="../../script/custom/helpers/helper_imgui_options.hps"/>
+        <File Name="../../script/custom/helpers/helper_effects_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_components_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_areas_custom.hps"/>
+        <File Name="../../script/custom/helpers/helper_agent.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="effects">
+        <File Name="../../script/custom/effects/Effect_Nausea.hps"/>
+        <File Name="../../script/custom/effects/Effect_FearTentacles.hps"/>
+        <File Name="../../script/custom/effects/Effect_DollyZoom.hps"/>
+        <File Name="../../script/custom/effects/Effect_BabyKick.hps"/>
+        <File Name="../../script/custom/effects/Effects_Custom.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="critters">
+        <File Name="../../script/custom/critters/Critter_General.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="components">
+        <File Name="../../script/custom/components/RiftComponent.hps"/>
+        <File Name="../../script/custom/components/MeatComponent.hps"/>
+        <File Name="../../script/custom/components/LucidityDrainer.hps"/>
+        <File Name="../../script/custom/components/LiquidSource.hps"/>
+        <File Name="../../script/custom/components/LampComponent.hps"/>
+        <File Name="../../script/custom/components/FireComponent.hps"/>
+        <File Name="../../script/custom/components/FearThreatComponent.hps"/>
+        <File Name="../../script/custom/components/FearScaryObjectComponent.hps"/>
+        <File Name="../../script/custom/components/CurseRadiator.hps"/>
+        <File Name="../../script/custom/components/ComponentInterfaces_Custom.hps"/>
+        <File Name="../../script/custom/components/AIPlayerNotify.hps"/>
+        <File Name="../../script/custom/components/AIMeatSensor.hps"/>
+        <File Name="../../script/custom/components/AIFireSensor.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="base">
+        <File Name="../../script/custom/base/AchievementHandler_Types.hps"/>
+        <File Name="../../script/custom/base/AchievementHandler.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="areas">
+        <File Name="../../script/custom/areas/Area_Whisper.hps"/>
+        <File Name="../../script/custom/areas/Area_PushableFog.hps"/>
+        <File Name="../../script/custom/areas/Area_PermaFail.hps"/>
+        <File Name="../../script/custom/areas/Area_LiquidSource.hps"/>
+        <File Name="../../script/custom/areas/Area_Heat.hps"/>
+        <File Name="../../script/custom/areas/Area_GhoulStalkCorner.hps"/>
+        <File Name="../../script/custom/areas/Area_GhoulHole.hps"/>
+        <File Name="../../script/custom/areas/Area_FlashbackTrigger.hps"/>
+        <File Name="../../script/custom/areas/Area_FearThreat.hps"/>
+        <File Name="../../script/custom/areas/Area_FearScaryObject.hps"/>
+        <File Name="../../script/custom/areas/Area_FearRate.hps"/>
+        <File Name="../../script/custom/areas/Area_Fear.hps"/>
+        <File Name="../../script/custom/areas/Area_Death.hps"/>
+        <File Name="../../script/custom/areas/Area_DarkWorldPortal.hps"/>
+        <File Name="../../script/custom/areas/Area_BabyTalk.hps"/>
+        <File Name="../../script/custom/areas/Area_AISearch.hps"/>
+        <File Name="../../script/custom/areas/Area_AIRetreatArea.hps"/>
+        <File Name="../../script/custom/areas/Area_AIRandomSpawn.hps"/>
+        <File Name="../../script/custom/areas/Area_AIInterest.hps"/>
+        <File Name="../../script/custom/areas/Area_AIHideSmell.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="agents">
+        <File Name="../../script/custom/agents/agent_young_tin_hinan.hps"/>
+        <File Name="../../script/custom/agents/agent_wraith.hps"/>
+        <File Name="../../script/custom/agents/agent_types_custom.hps"/>
+        <File Name="../../script/custom/agents/agent_tin_hinan.hps"/>
+        <File Name="../../script/custom/agents/agent_sand_lurker.hps"/>
+        <File Name="../../script/custom/agents/agent_ghoul.hps"/>
+        <File Name="../../script/custom/agents/agent_general.hps"/>
+        <File Name="../../script/custom/agents/agent_doctor.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="critters">
+      <File Name="../../script/critters/Critter_Nautilus.hps"/>
+      <File Name="../../script/critters/Critter_FishSmall.hps"/>
+      <File Name="../../script/critters/Critter_CrabSpider.hps"/>
+      <File Name="../../script/critters/Critter_CrabSmall.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="base">
+      <File Name="../../script/base/RichPresenceHandler_Types.hps"/>
+      <File Name="../../script/base/RichPresenceHandler.hps"/>
+      <File Name="../../script/base/InputHandler_Types.hps"/>
+      <File Name="../../script/base/InputHandler.hps"/>
+      <File Name="../../script/base/HeroStatsHandler_Types.hps"/>
+      <File Name="../../script/base/HeroStatsHandler.hps"/>
+      <File Name="../../script/base/GuiHandler.hps"/>
+      <File Name="../../script/base/EventDatabaseHandler.hps"/>
+      <File Name="../../script/base/Base_Types.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="areas">
+      <File Name="../../script/areas/LiquidArea_Default.hps"/>
+      <File Name="../../script/areas/Area_Zoom.hps"/>
+      <File Name="../../script/areas/Area_Trigger.hps"/>
+      <File Name="../../script/areas/Area_Tool.hps"/>
+      <File Name="../../script/areas/Area_Sticky.hps"/>
+      <File Name="../../script/areas/Area_Sit.hps"/>
+      <File Name="../../script/areas/Area_MapTransfer.hps"/>
+      <File Name="../../script/areas/Area_Ladder.hps"/>
+      <File Name="../../script/areas/Area_InteractAux.hps"/>
+      <File Name="../../script/areas/Area_Hide.hps"/>
+      <File Name="../../script/areas/Area_DoorwayTrigger.hps"/>
+      <File Name="../../script/areas/Area_Distortion.hps"/>
+      <File Name="../../script/areas/Area_Description.hps"/>
+      <File Name="../../script/areas/Area_Crawl.hps"/>
+      <File Name="../../script/areas/Area_Climb.hps"/>
+      <File Name="../../script/areas/Area_CameraAnimationNode.hps"/>
+      <File Name="../../script/areas/Area_AmbientLight.hps"/>
+      <File Name="../../script/areas/Area_AgentRepel.hps"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="agents">
+      <File Name="../../script/agents/Agent_Humanoid_NPC.hps"/>
+      <File Name="../../script/agents/Agent_Humanoid.hps"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="_api">
+    <File Name="../../hps_api.hps"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="clang++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand>AmnesiaRebirth_NoSteam.exe -user Dev -cfg config/main_init_dev.cfg -mod local:dormantdoll</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Amnesia Rebirth</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+</CodeLite_Project>
