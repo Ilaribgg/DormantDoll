@@ -1,0 +1,30 @@
+<Material>
+    <Main Type="vertexblend" DepthTest="true" ForceFullScaleTextures="false" UVSubDivs="1 1" UseAlpha="false" PhysicsMaterial="Default" BlendMode="Add" />
+    <TextureUnits>
+        <Diffuse_R MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_red_rocky_top.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <Specular_R MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_yellow_top_spec.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <NMap_R MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_yellow_top02_nrm.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <Diffuse_G MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_red_side02.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <Specular_G MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_yellow_side02_spec.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <NMap_G MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/rock_sandstone_yellow_side02_nrm.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+        <NMap_B MipMaps="true" Compress="true" File="static_objects/_temp/marc/sandstone/large/rock_large_arc_nrm.dds" Type="2D" Wrap="Repeat" AnimMode="None" AnimFrameTime="0" AnimStartTime="0" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="BlendSmoothness" Value="0.25" />
+        <Var Name="ColorBlendSmoothness" Value="0.25" />
+        <Var Name="TextureUVScaleR" Value="0.06" />
+        <Var Name="TextureUVScaleG" Value="0.05" />
+        <Var Name="TextureUVScaleB" Value="1" />
+        <Var Name="HeightMapScaleR" Value="0" />
+        <Var Name="HeightMapScaleG" Value="0.013" />
+        <Var Name="HeightMapScaleB" Value="0" />
+        <Var Name="AlphaMask" Value="true" />
+        <Var Name="OverlayNormal" Value="true" />
+        <Var Name="DirectionalWeightR" Value="0 1.5 0 0" />
+        <Var Name="DirectionalWeightG" Value="0 0 0 1.2" />
+        <Var Name="DirectionalWeightB" Value="0 0 0 1.2" />
+        <Var Name="AutoUvR" Value="true" />
+        <Var Name="AutoUvG" Value="true" />
+        <Var Name="AutoUvB" Value="false" />
+    </SpecificVariables>
+</Material>

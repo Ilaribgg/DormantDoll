@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>modo 902 [Build 108604], Microsoft Windows 10 (10.0.17134)</authoring_tool>
+            <comments>
+                Plug-in: [Build 108604];
+                Use Absolute Path: No;
+                Merge Reference Items: No;
+                Save Hidden Items: No;
+                Save Cameras: No;
+                Save Lights: No;
+                Save Locators: Yes;
+                Save Triangles as Triangles: Yes;
+                Order Vertex Maps Alphabetically: Yes;
+                Bake Matrices: No;
+                Save Vertex Normals: Yes;
+                Save UV Texture Coordinates: Yes;
+                Save Vertex Colors: Yes;
+                Save Vertex Weights: Yes;
+                Save Animation: No;
+                Sample Animation: No;
+                Sample Animation Start: 0;
+                Sample Animation End: 48;
+                Save modo Profile: Yes;
+                Save Maya Profile: Yes;
+                Save 3ds Max Profile: Yes;
+                Formatted Arrays: Yes;
+            </comments>
+            <source_data>file:///D:/Dropbox%20(Frictional%20Games)/Frictional%20Team/Workfiles%20-%20Marc/static/desert/waterroute%202nd%20ver.lxo</source_data>
+        </contributor>
+        <created>2018-12-17T13:25:49Z</created>
+        <modified>2018-12-17T13:25:49Z</modified>
+        <unit name="game" meter="1" />
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="Image0001" name="Image0001">
+            <init_from>file:///C:/frictional/amnesia2/trunk/redist/textures/liquid/water/water_flowing.jpg</init_from>
+        </image>
+    </library_images>
+    <library_materials>
+        <material id="Material-Default" name="Default">
+            <instance_effect url="#Effect-Default" />
+        </material>
+    </library_materials>
+    <library_effects>
+        <effect id="Effect-Default" name="Default">
+            <profile_COMMON>
+                <newparam sid="Image0001-surface">
+                    <surface type="2D">
+                        <init_from>Image0001</init_from>
+                        <format>A8R8G8B8</format>
+                    </surface>
+                </newparam>
+                <newparam sid="Image0001-sampler">
+                    <sampler2D>
+                        <source>Image0001-surface</source>
+                        <minfilter>LINEAR_MIPMAP_LINEAR</minfilter>
+                        <magfilter>LINEAR</magfilter>
+                    </sampler2D>
+                </newparam>
+                <technique sid="common">
+                    <phong>
+                        <diffuse>
+                            <texture texture="Image0001-sampler" texcoord="Unnamed_UV_Set_0__2_" />
+                        </diffuse>
+                        <specular>
+                            <color sid="specular_effect_rgb">0.04 0.04 0.04 1</color>
+                        </specular>
+                        <shininess>
+                            <float sid="specular_effect_rgb">256</float>
+                        </shininess>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_geometries>
+        <geometry id="Geometry-mesh1716" name="static__4_">
+            <mesh>
+                <source id="Geometry-mesh1716-positions" name="positions">
+                    <float_array id="Geometry-mesh1716-positions-array" count="120">
+                        -11.7606 -0.866027 -0.73217
+                        -11.6202 -0.848897 -0.81707
+                        -10.1353 -0.668296 -3.75277
+                        -9.9952 -0.652026 -3.83857
+                        -7.21401 -0.276397 2.52082
+                        -7.08911 -0.266997 2.41143
+                        -6.04831 -0.168185 -0.713173
+                        -5.91321 -0.152575 -0.809166
+                        -1.44181 0.0926638 4.60043
+                        -1.33991 0.107923 4.47022
+                        -0.82761 0.164483 1.21592
+                        -0.712414 0.173081 1.09672
+                        4.84094 1.07478 1.90972
+                        4.92544 1.0886 1.76652
+                        5.11759 1.10759 5.33953
+                        5.18361 1.10922 5.18653
+                        10.7844 1.19694 0.630531
+                        10.8645 1.30592 0.853523
+                        11.762 1.44488 4.02073
+                        11.8069 1.45183 4.17913
+                        13.0532 1.13235 -0.229866
+                        13.1943 1.22531 -0.0630112
+                        14.1514 1.41083 2.38662
+                        14.179 1.42242 2.55752
+                        -12.642 -1.28996 -5.33953
+                        -12.7473 -1.30105 -5.2261
+                        -14.0496 -1.43448 -2.21328
+                        -14.179 -1.45183 -2.10787
+                        -12.4937 -1.02367 -5.24212
+                        -12.2415 -0.848952 -5.09371
+                        -12.6044 -1.03622 -5.13294
+                        -12.356 -0.861453 -4.98783
+                        -13.9412 -1.19435 -2.13692
+                        -13.6935 -1.007 -1.98737
+                        -13.6809 -1.02227 -1.82732
+                        -13.9755 -1.19166 -1.99348
+                        -12.3859 -0.903192 -5.17583
+                        -12.4988 -0.915669 -5.06852
+                        -13.8391 -1.06433 -2.07166
+                        -13.8422 -1.07486 -1.91837
+                    </float_array>
+                    <technique_common>
+                        <accessor count="40" source="#Geometry-mesh1716-positions-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-mesh1716-normals" name="normals">
+                    <float_array id="Geometry-mesh1716-normals-array" count="120">
+                        -0.0745488 0.99634 0.0418124
+                        -0.119312 0.991925 -0.043012
+                        -0.100921 0.994894 -0.00106498
+                        -0.0954854 0.995428 0.00233421
+                        -0.114892 0.993323 0.0104147
+                        -0.11101 0.993815 0.00291823
+                        -0.142405 0.9844 0.103328
+                        -0.102131 0.994734 0.00859639
+                        -0.0497748 0.998318 -0.0297086
+                        -0.0451058 0.997266 -0.0585387
+                        -0.0959819 0.995365 -0.00603167
+                        -0.108428 0.907972 -0.404761
+                        -0.503847 0.861234 0.0664359
+                        -0.448982 0.880597 -0.151538
+                        -0.736636 0.629872 -0.24623
+                        -0.768587 0.560304 -0.30876
+                        -0.779548 0.535136 -0.325475
+                        -0.800709 0.488823 -0.34629
+                        -0.740371 0.597213 -0.308525
+                        -0.00788005 0.998543 -0.0533853
+                        -0.0128242 0.992702 -0.11991
+                        -0.101638 0.994799 0.00669006
+                        -0.110043 0.993908 0.00617026
+                        -0.0901509 0.995928 0.000708139
+                        -0.103617 0.994617 -0.000767058
+                        -0.116721 0.993161 -0.00279379
+                        -0.529429 0.65249 -0.542182
+                        -0.43837 0.884763 -0.158198
+                        -0.125744 0.908062 -0.399513
+                        -0.100638 0.994916 0.00369115
+                        -0.107041 0.993731 0.0322594
+                        -0.0906024 0.995735 -0.0174319
+                        -0.114589 0.993412 0.00125494
+                        -0.0551986 0.998078 -0.0281491
+                        -0.116216 0.992449 -0.0392278
+                        -0.583117 0.621106 -0.523643
+                        -0.338058 0.906672 -0.252315
+                        -0.0284818 0.997647 -0.0623612
+                        -0.0953982 0.995329 0.0148343
+                        -0.635831 0.541768 -0.549733
+                    </float_array>
+                    <technique_common>
+                        <accessor count="40" source="#Geometry-mesh1716-normals-array" stride="3">
+                            <param name="X" type="float" />
+                            <param name="Y" type="float" />
+                            <param name="Z" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="Geometry-mesh1716-Unnamed_UV_Set_0__2_" name="Unnamed_UV_Set_0__2_">
+                    <float_array id="Geometry-mesh1716-Unnamed_UV_Set_0__2_-array" count="80">
+                        44.9301 0.987734
+                        43.8005 0.987734
+                        44.9301 0.945209
+                        43.8005 0.945209
+                        41.4362 0.0449766
+                        41.4362 0.109722
+                        41.0034 0.0449766
+                        41.0034 0.109722
+                        46.0875 0.109722
+                        46.0875 0.945209
+                        44.9301 0.109722
+                        46.0875 0.987734
+                        40.9711 0.0449766
+                        40.9711 0.109722
+                        40.9388 0.0449766
+                        40.9388 0.109722
+                        40.8799 0.945209
+                        40.8799 0.109722
+                        40.9388 0.945209
+                        46.6825 0.109722
+                        46.6825 0.945209
+                        41.0034 0.945209
+                        41.4362 0.945209
+                        42.5343 0.109722
+                        42.5343 0.945209
+                        42.5343 0.987734
+                        40.8799 0.0449766
+                        40.9711 0.945209
+                        46.6825 0.987734
+                        43.8005 0.109722
+                        43.8005 0.0449766
+                        42.5343 0.0449766
+                        41.4362 0.987734
+                        46.0875 0.0449766
+                        44.9301 0.0449766
+                        40.9388 0.987734
+                        40.9711 0.987734
+                        46.6825 0.0449766
+                        41.0034 0.987734
+                        40.8799 0.987734
+                    </float_array>
+                    <technique_common>
+                        <accessor count="40" source="#Geometry-mesh1716-Unnamed_UV_Set_0__2_-array" stride="2">
+                            <param name="S" type="float" />
+                            <param name="T" type="float" />
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="Geometry-mesh1716-vertices">
+                    <input semantic="POSITION" source="#Geometry-mesh1716-positions" />
+                </vertices>
+                <triangles count="54" material="Material-Default">
+                    <input semantic="VERTEX" source="#Geometry-mesh1716-vertices" offset="0" />
+                    <input semantic="NORMAL" source="#Geometry-mesh1716-normals" offset="1" />
+                    <input semantic="TEXCOORD" source="#Geometry-mesh1716-Unnamed_UV_Set_0__2_" offset="2" set="0" />
+                    <p>13 0 0 11 1 1 12 2 2 10 3 3 12 2 2 11 1 1 0 4 4 1 5 5 34 6 6 33 7 7 34 6 6 1 5 5 18 8 8 17 9 9 15 10 10 12 2 2 15 10 10 17 9 9 16 11 11 13 0 0 17 9 9 12 2 2 17 9 9 13 0 0 39 12 12 38 13 13 35 14 14 32 15 15 35 14 14 38 13 13 25 16 16 26 17 17 30 18 18 32 15 15 30 18 18 26 17 17 18 8 8 22 19 19 17 9 9 21 20 20 17 9 9 22 19 19 31 21 21 33 7 7 2 22 22 1 5 5 2 22 22 33 7 7 5 23 23 6 24 24 1 5 5 2 22 22 1 5 5 6 24 24 11 1 1 7 25 25 10 3 3 6 24 24 10 3 3 7 25 25 27 26 26 35 14 14 26 17 17 32 15 15 26 17 17 35 14 14 33 7 7 31 21 21 38 13 13 37 27 27 38 13 13 31 21 21 16 11 11 17 9 9 20 28 28 21 20 20 20 28 28 17 9 9 9 29 29 5 23 23 8 30 30 4 31 31 8 30 30 5 23 23 7 25 25 3 32 32 6 24 24 2 22 22 6 24 24 3 32 32 18 8 8 15 10 10 19 33 33 14 34 34 19 33 33 15 10 10 5 23 23 1 5 5 4 31 31 0 4 4 4 31 31 1 5 5 30 18 18 37 27 27 28 35 35 36 36 36 28 35 35 37 27 27 38 13 13 37 27 27 32 15 15 30 18 18 32 15 15 37 27 27 19 33 33 23 37 37 18 8 8 22 19 19 18 8 8 23 37 37 9 29 29 10 3 3 5 23 23 6 24 24 5 23 23 10 3 3 15 10 10 9 29 29 14 34 34 8 30 30 14 34 34 9 29 29 15 10 10 12 2 2 9 29 29 10 3 3 9 29 29 12 2 2 31 21 21 2 22 22 29 38 38 3 32 32 29 38 38 2 22 22 37 27 27 31 21 21 36 36 36 29 38 38 36 36 36 31 21 21 34 6 6 33 7 7 39 12 12 38 13 13 39 12 12 33 7 7 28 35 35 24 39 39 30 18 18 25 16 16 30 18 18 24 39 39</p>
+                </triangles>
+                <extra>
+                    <technique profile="modo401">
+                        <param sid="render" name="Render" type="Name">default</param>
+                        <param sid="dissolve" name="Dissolve" type="float">0</param>
+                        <param sid="curves" name="Render_Curves" type="bool">false</param>
+                        <param sid="radius" name="Curve_Radius" type="float">0.05</param>
+                    </technique>
+                </extra>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_nodes id="shader_tree" name="Shader_Tree">
+        <node sid="shader_tree_render" name="Render">
+            <extra>
+                <technique profile="modo401">
+                    <param sid="first" name="Frame_Range_First" type="int">1</param>
+                    <param sid="last" name="Frame_Range_Last" type="int">120</param>
+                    <param sid="dpi" name="Frame_DPI" type="float">300</param>
+                    <param sid="resUnit" name="Resolution_Unit" type="Name">pixels</param>
+                    <param sid="pAspect" name="Frame_Pixel_Aspect_Ratio" type="float">1</param>
+                    <param sid="bucketX" name="Bucket_Width" type="int">32</param>
+                    <param sid="bucketY" name="Bucket_Height" type="int">32</param>
+                    <param sid="bktOrder" name="Bucket_Order" type="Name">hilbert</param>
+                    <param sid="bktSkip" name="Skip_Existing_Buckets" type="bool">false</param>
+                    <param sid="region" name="Render_Region" type="bool">false</param>
+                    <param sid="regX0" name="Render_Region_Left" type="float">0</param>
+                    <param sid="regX1" name="Render_Region_Right" type="float">1</param>
+                    <param sid="regY0" name="Render_Region_Top" type="float">0</param>
+                    <param sid="regY1" name="Render_Region_Bottom" type="float">1</param>
+                    <param sid="aa" name="Render_Antialiasing" type="Name">s8</param>
+                    <param sid="aaFilter" name="Render_Antialiasing_Filter" type="Name">gaussian</param>
+                    <param sid="fineRate" name="Refinement_Shading_Rate" type="float">0.25</param>
+                    <param sid="fineThresh" name="Refinement_Threshold" type="float">0.1</param>
+                    <param sid="bktRefine" name="Refine_Bucket_Borders" type="bool">false</param>
+                    <param sid="rayShadow" name="Ray_Tracing_Shadows" type="bool">true</param>
+                    <param sid="reflDepth" name="Reflection_Depth" type="int">8</param>
+                    <param sid="refrDepth" name="Refraction_Depth" type="int">8</param>
+                    <param sid="rayThresh" name="Ray_Threshold" type="float">0.001</param>
+                    <param sid="subdAdapt" name="Adaptive_Subdivision" type="bool">false</param>
+                    <param sid="subdRate" name="Subdivision_Rate" type="float">10</param>
+                    <param sid="dispEnable" name="Micropoly_Displacement" type="bool">true</param>
+                    <param sid="dispRate" name="Displacement_Rate" type="float">1</param>
+                    <param sid="dispRatio" name="Displacement_Ratio" type="float">4</param>
+                    <param sid="edgeMin" name="Minimum_Edge_Length" type="float">0.0001</param>
+                    <param sid="dispSmooth" name="Smooth_Positions" type="bool">true</param>
+                    <param sid="ambRad" name="Ambient_Intensity" type="float">0</param>
+                    <param sid="ambColor" name="Ambient_Color" type="color">1 1 1</param>
+                    <param sid="globEnable" name="Enable_Indirect_Illumination" type="bool">true</param>
+                    <param sid="globScope" name="Indirect_Illumination_Scope" type="Name">all</param>
+                    <param sid="globRays" name="Indirect_Rays" type="int">64</param>
+                    <param sid="globLimit" name="Indirect_Bounces" type="int">1</param>
+                    <param sid="globRange" name="Indirect_Range" type="float">0</param>
+                    <param sid="globSubs" name="Subsurface_Scattering" type="int">1</param>
+                    <param sid="globVols" name="Volumetrics_Affect_Indirect" type="bool">false</param>
+                    <param sid="irrCache" name="Enable_Irradiance_Caching" type="bool">true</param>
+                    <param sid="irrRays" name="Irradiance_Rays" type="int">256</param>
+                    <param sid="globSuper" name="Indirect_Supersampling" type="bool">true</param>
+                    <param sid="irrRate" name="Irradiance_Rate" type="float">2.5</param>
+                    <param sid="irrRatio" name="Irradiance_Ratio" type="float">6</param>
+                    <param sid="irrVals" name="Interpolation_Values" type="int">1</param>
+                    <param sid="irrGrads" name="Irradiance_Gradients" type="Name">both</param>
+                    <param sid="irrWalk" name="Walkthrough_Mode" type="bool">false</param>
+                    <param sid="irrLEnable" name="Load_Irradiance_before_Render" type="bool">false</param>
+                    <param sid="irrLName" name="Load_Irradiance_File" type="Name"></param>
+                    <param sid="irrSEnable" name="Save_Irradiance_after_Render" type="bool">false</param>
+                    <param sid="irrSName" name="Save_Irradiance_File" type="Name"></param>
+                    <param sid="causEnable" name="Enable_Direct_Caustics" type="bool">false</param>
+                    <param sid="causTotal" name="Caustics_Total_Photons" type="int">100000</param>
+                    <param sid="causLocal" name="Caustics_Local_Photons" type="int">32</param>
+                    <param sid="globCaus" name="Indirect_Caustics" type="Name">refraction</param>
+                </technique>
+            </extra>
+        </node>
+        <node sid="shader_tree_environment" name="Environment">
+            <extra>
+                <technique profile="modo401">
+                    <param sid="radiance" name="Environment_Intensity" type="float">1</param>
+                    <param sid="visCam" name="Environment_Visible_to_Camera" type="bool">true</param>
+                    <param sid="visInd" name="Environment_Visible_to_Indirect_Rays" type="bool">true</param>
+                    <param sid="visRefl" name="Environment_Visible_to_Reflection_Rays" type="bool">true</param>
+                    <param sid="visRefr" name="Environment_Visible_to_Refraction_Rays" type="bool">true</param>
+                </technique>
+            </extra>
+        </node>
+    </library_nodes>
+    <library_visual_scenes>
+        <visual_scene id="DefaultScene">
+            <node id="Geometry-mesh002Node" name="Mesh" type="NODE" />
+            <node id="Camera-camera003Node" name="Camera" type="NODE">
+                <translate sid="translation004">0 0.75 4</translate>
+                <rotate sid="rotation005Y">0 1 0 0</rotate>
+                <rotate sid="rotation005X">1 0 0 -5</rotate>
+                <rotate sid="rotation005Z">0 0 1 0</rotate>
+                <instance_camera url="#Camera-camera003" />
+            </node>
+            <node id="groupLocator021Node" name="stream2" type="NODE">
+                <node id="Geometry-mesh1716Node" name="static__4_" type="NODE">
+                    <instance_geometry url="#Geometry-mesh1716">
+                        <bind_material>
+                            <technique_common>
+                                <instance_material symbol="Material-Default" target="#Material-Default">
+                                    <bind_vertex_input semantic="Unnamed_UV_Set_0__2_" input_semantic="TEXCOORD" input_set="0" />
+                                </instance_material>
+                            </technique_common>
+                        </bind_material>
+                    </instance_geometry>
+                </node>
+            </node>
+            <node id="groupLocator1724Node" name="Texture_Group" type="NODE">
+                <node id="txtrLocator002Node" name="water_flowing__Image___Texture_" type="NODE">
+                    <translate sid="translation005">0 0 0</translate>
+                    <rotate sid="rotation004Y">0 1 0 0</rotate>
+                    <rotate sid="rotation004X">1 0 0 0</rotate>
+                    <rotate sid="rotation004Z">0 0 1 0</rotate>
+                    <scale sid="scale003">1 1 1</scale>
+                </node>
+            </node>
+            <node id="Light-sunLight013Node" name="Directional_Light" type="NODE">
+                <translate sid="translation015">-2 2 2</translate>
+                <rotate sid="rotation016Y">0 1 0 -45</rotate>
+                <rotate sid="rotation016X">1 0 0 -30</rotate>
+                <rotate sid="rotation016Z">0 0 1 0</rotate>
+                <instance_light url="#Light-sunLight013" />
+            </node>
+            <extra>
+                <technique profile="modo401">
+                    <param sid="fps" name="Scene_FPS" type="float">24</param>
+                    <param sid="sceneS" name="Scene_Start_Time" type="float">0</param>
+                    <param sid="sceneE" name="Scene_End_Time" type="float">5</param>
+                    <param sid="currentS" name="Scene_Current_Start_Time" type="float">0</param>
+                    <param sid="currentE" name="Scene_Current_End_Time" type="float">5</param>
+                    <param sid="timeSys" name="Scene_Time_System" type="Name">frames</param>
+                </technique>
+            </extra>
+            <extra>
+                <technique profile="MAX3D">
+                    <frame_rate>24</frame_rate>
+                </technique>
+            </extra>
+            <extra>
+                <technique profile="MAYA">
+                    <start_time>0</start_time>
+                    <end_time>5</end_time>
+                </technique>
+            </extra>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#DefaultScene" />
+    </scene>
+</COLLADA>

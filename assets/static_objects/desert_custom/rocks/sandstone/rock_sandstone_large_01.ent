@@ -1,0 +1,39 @@
+<Entity>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="static_objects/desert/rocks/sandstone/rock_sandstone_large_01.dae">
+            <SubMesh ID="1" Name="rock_sandstone_large_01_LowPoly1" CreStamp="0" ModStamp="1477320456" WorldPos="0 -2.38419e-07 0" Rotation="0 0 0" Scale="1 1 1" TriCount="2030" Material="" Static="false" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <Shape ID="106" Name="ShapeCapsule_1" CreStamp="1539792171" ModStamp="1539792208" WorldPos="-0.50523 1.99661 0.195896" Rotation="-0.454358 0.372554 -0.930362" Scale="1.39069 10.695 0" RelativeTranslation="-1.01273 1.36978 -0.111924" RelativeRotation="-0.454358 0.372554 -0.930362" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="107" Name="ShapeCapsule_2" CreStamp="1539792216" ModStamp="1539792454" WorldPos="-0.452026 -0.532531 2.08683" Rotation="0.0386072 0.110307 -1.63511" Scale="1.39069 7.42731 0" RelativeTranslation="-0.959521 -1.15936 1.77901" RelativeRotation="0.0386072 0.110307 -1.63511" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="108" Name="ShapeCapsule_3" CreStamp="1539792349" ModStamp="1539792516" WorldPos="-1.7131 -0.721122 -0.258678" Rotation="-0.97263 0.027732 -1.6959" Scale="1.39069 7.51576 0" RelativeTranslation="-2.22059 -1.34795 -0.566498" RelativeRotation="-0.97263 0.027732 -1.6959" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="109" Name="ShapeCapsule_4" CreStamp="1539792377" ModStamp="1539792475" WorldPos="2.72809 -0.742954 0.596409" Rotation="-1.19473 0.027732 -1.6959" Scale="1.39069 5.80391 0" RelativeTranslation="2.22059 -1.36978 0.288589" RelativeRotation="-1.19473 0.027732 -1.6959" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="113" Name="ShapeCapsule_5" CreStamp="1539792479" ModStamp="1539792507" WorldPos="1.43758 -0.490253 -1.47119" Rotation="-2.86819 -0.032464 -1.54785" Scale="1.61419 5.80391 0" RelativeTranslation="0.930085 -1.11708 -1.77901" RelativeRotation="-2.86819 -0.032464 -1.54785" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="114" Name="ShapeCapsule_6" CreStamp="1539792526" ModStamp="1539792574" WorldPos="0.695207 1.47594 -0.434046" Rotation="-0.416446 0.372554 -0.930363" Scale="2.07707 7.68246 0" RelativeTranslation="0.187712 0.849112 -0.741866" RelativeRotation="-0.416446 0.372554 -0.930363" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="115" Name="ShapeCapsule_7" CreStamp="1539792596" ModStamp="1539792625" WorldPos="1.3366 0.657853 0.596887" Rotation="-0.391289 0.027732 -1.6959" Scale="1.69708 5.66478 0" RelativeTranslation="0.829105 0.0310251 0.289067" RelativeRotation="-0.391289 0.027732 -1.6959" RelativeScale="1 1 1" ShapeType="Capsule" />
+            <Shape ID="117" Name="ShapeSphere_1" CreStamp="1539792639" ModStamp="1539792656" WorldPos="2.20983 0.690647 -0.858349" Rotation="0 0 0" Scale="1.93918 0 0" RelativeTranslation="1.70234 0.0638191 -1.16617" RelativeRotation="0 -0 0" RelativeScale="1 1 1" ShapeType="Sphere" />
+            <Shape ID="120" Name="ShapeCapsule_8" CreStamp="1539793936" ModStamp="1539793965" WorldPos="0.645226 -0.417181 0.382413" Rotation="-0.445472 0.110307 -1.63511" Scale="1.96367 6.52257 0" RelativeTranslation="0.137731 -1.04401 0.0745933" RelativeRotation="-0.445472 0.110307 -1.63511" RelativeScale="1 1 1" ShapeType="Capsule" />
+        </Shapes>
+        <Bodies>
+            <Body ID="121" Name="Body_1" CreStamp="0" ModStamp="1539793981" WorldPos="0.507495 0.626828 0.30782" Rotation="0 0 0" Scale="1 1 1" Material="stone large" Mass="0" AngularDamping="0.1" LinearDamping="0.1" MaxAngularSpeed="20" MaxLinearSpeed="20" BuoyancyDensityMul="1" BlocksSound="false" ContinuousCollision="true" CanAttachCharacter="false" PushedByCharacterGravity="false" CollideCharacter="true" CollideNonCharacter="true" Volatile="false" UseSurfaceEffects="true" HasGravity="true" BlocksLight="true">
+                <Shape ID="106" />
+                <Shape ID="107" />
+                <Shape ID="108" />
+                <Shape ID="109" />
+                <Shape ID="113" />
+                <Shape ID="114" />
+                <Shape ID="115" />
+                <Shape ID="120" />
+                <Shape ID="117" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+        <ProcAnimations />
+    </ModelData>
+    <UserDefinedVariables EntityType="StaticProp">
+        <Var Name="ShowMesh" Value="true" />
+    </UserDefinedVariables>
+</Entity>
