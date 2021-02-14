@@ -77,6 +77,8 @@ class cScrMap : iScrMap
 	void OnEnter()
 	{	
 		Game_AutoSave();
+        PlayerBody_SetActive(true);
+		Player_SetVertigoActive(false);
 	}
 
 	//-------------------------------------------------------

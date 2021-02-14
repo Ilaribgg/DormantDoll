@@ -34,10 +34,8 @@ class cScrMap : iScrMap
 	// Set up map environment
 	void Setup()
 	{
-		// Put display name entry in english.lang / Levels
-		GetBase().SetDisplayNameEntry("xx-xx-dummy-level");
-		
-		// Set up color grading etc.
+		PlayerBody_SetActive(true);
+		Player_SetVertigoActive(false);
 	}
 	
 	//-------------------------------------------------------
@@ -79,6 +77,8 @@ class cScrMap : iScrMap
 	void OnEnter()
 	{	
 		Game_AutoSave();
+        PlayerBody_SetActive(true);
+		Player_SetVertigoActive(false);
 	}
 
 	//-------------------------------------------------------
@@ -129,86 +129,27 @@ class cScrMap : iScrMap
 
 	////////////////////////////
 	// To get when player makes input (mostly used for debug)
-	void OnAction(int alAction, bool abPressed) 
-	{
-		if(abPressed==false) return;
-		
-		if(alAction == eAction_Test1)
-		{
-		}
-	}
-
-	//-------------------------------------------------------
-
-	////////////////////////////
-	// This only used for pure debug purposes when info needs to printed.
-	float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
-	{
-		//afY = cLux_DrawDebugText("My Debug value:"+..., afY);
-		return afY;
-	}
+	 void OnAction(int alAction, bool abPressed) 
+    {
+        if(abPressed==false) return;
+        
+        if(alAction == eAction_Test1)
+        {
+        }
+    }
  
-	//-------------------------------------------------------
- 
-	//} END MAIN CALLBACKS
- 
- 
-	//////////////////////////////////////////////////////////////////////////////////////////
-	// ==============
-	// MAIN FUNCTIONS
-	// ==============
-	//{///////////////////////////////////////////////////////////////////////////////////////
- 
-	//-------------------------------------------------------
- 
-	/*Put any variables that are used in more than one scene here.*/
- 
-	//-------------------------------------------------------
- 
-	/*Put any functions that are used in more than one scene here.*/
- 
-	//-------------------------------------------------------
- 
-	//} END MAIN FUNCTIONS
- 
-	//////////////////////////////////////////////////////////////////////////////////////////
-	// ==============
-	// SCENE X *NAME OF SCENE*
-	// ==============
-	//{//////////////////////////////////////////////////////////////////////////////////////
- 
-		/////////////////////////////////////////
-		// General
-		//{//////////////////////////////////////
-		 
-		//-------------------------------------------------------
-	 
-		/*Put any variables that are used by many events in Scene X here.*/
-	 
-		//-------------------------------------------------------
-	 
-		/*Put any functions that are used in more than one event in Scene X here.*/
-	 
-		//-------------------------------------------------------
-		
-		//} END General	
-	 
-		/////////////////////////////////////////
-		// Event *Name Of Event*
-		//{//////////////////////////////////////
-
-		//-------------------------------------------------------
-
-		/*Put any variables that are only used in Scene X, Event X here.*/
-
-		//-------------------------------------------------------
-
-		/*Put any functions that are only used in Scene X, Event X here.*/
-
-		//-------------------------------------------------------
-
-		//} END Event *Name Of Event*
-	 
-	//} END SCENE X
- 
+    float DrawDebugOutput(cGuiSet @apSet,iFontData @apFont,float afY)
+    {
+        return afY;
+    }
+    
+    //Our functions------------------------------------------------------------
+    
+    
+    void OnInteract_Player_Door_1(const tString &in asEntity)
+    {
+        //asEntity is the name of the object that is being interacted with
+        cLux_ChangeMap("01_estate.hpm", "spawnpoint_1", "", "", "", true, 1.0f);
+    }
+    
 }
