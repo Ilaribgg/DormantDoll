@@ -17,6 +17,12 @@
     </VirtualDirectory>
   </VirtualDirectory>
   <VirtualDirectory Name="maps">
+    <VirtualDirectory Name="Chapter 2">
+      <VirtualDirectory Name="02_Entrance_Hall">
+        <File Name="maps/Chapter 2/02_Entrance_Hall/02_entrance_hall.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_Estate">
+        <File Name="maps/Chapter 2/01_Estate/01_estate.hps"/>
     <VirtualDirectory Name="Chapter 1">
       <VirtualDirectory Name="01_cellar">
         <File Name="maps/Chapter 1/01_cellar/cellar_map.hps"/>

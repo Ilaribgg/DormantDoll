@@ -1,0 +1,8 @@
+<HPLMapTrack_Billboard ID="FCB0D0FC386CF4FA2F757A86FC1D65C774E597DB" MajorVersion="1" MinorVersion="1">
+    <Section Name="10592109083821822014">
+        <Objects>
+            <Billboard ID="268436413" Name="Billboard_1" CreStamp="1612605492" ModStamp="1613238159" WorldPos="5.61499 12.6098 2.89688" Rotation="0 -0 -1.0472" Scale="1 1 1" BillboardType="Point" MaterialFile="C:/Program Files (x86)/Steam/steamapps/common/Amnesia Rebirth/billboards/halo/lampglow_generic_no_depth.mat" IsHalo="true" BillboardSize="2.5 4.5" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="1.5" BillboardColor="0.572549 0.862745 0.862745 1" Brightness="0.3" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="-1" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+            <Billboard ID="268436414" Name="Billboard_2" CreStamp="1612606444" ModStamp="1612609419" WorldPos="6.51737 12.2724 1.16879" Rotation="-0.674445 0.991062 0.325419" Scale="1 1 1" BillboardType="FixedAxis" MaterialFile="C:/Program Files (x86)/Steam/steamapps/common/Amnesia Rebirth/billboards/halo/lampglow_cone_distorsion.mat" IsHalo="false" BillboardSize="2 6" HaloSourceSize="0.3 0.3 0.3" BillboardOffset="6.5" BillboardColor="0.572549 0.862745 0.862745 1" Brightness="0.3" CulledByDistance="false" CulledByFog="true" ConnectLight="" Static="false" RangeMinStart="0.5" RangeMinEnd="-1" RangeMaxStart="-1" RangeMaxEnd="-1" />
+        </Objects>
+    </Section>
+</HPLMapTrack_Billboard>

@@ -1,0 +1,46 @@
+<HPLMapTrack_Area ID="EC39CBA4F72C197B3B3325CA5E6652E188D51C2C" MajorVersion="1" MinorVersion="1">
+    <Section Name="10592109083821822014">
+        <Objects>
+            <Area ID="268435456" Name="spawnpoint_01" CreStamp="1610103988" ModStamp="1611413902" WorldPos="65.0427 109.466 -337.56" Rotation="0 0.449197 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 539 268435456" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268435456" Name="Note" Value="" />
+                    <Var ObjectId="268435456" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435457" Name="trigger_1" CreStamp="1611358187" ModStamp="1611394125" WorldPos="174.75 130.75 -306.25" Rotation="0 -0.122214 0" Scale="14.396 8.90416 1" Active="true" Mesh="" UID="16 310 268435457" AreaType="Trigger">
+                <UserVariables>
+                    <Var ObjectId="268435457" Name="Note" Value="" />
+                    <Var ObjectId="268435457" Name="BlocksLineOfSight" Value="false" />
+                    <Var ObjectId="268435457" Name="EventInstanceTag" Value="" />
+                    <Var ObjectId="268435457" Name="UserVar" Value="" />
+                    <Var ObjectId="268435457" Name="Static" Value="false" />
+                    <Var ObjectId="268435457" Name="QuickSave" Value="false" />
+                    <Var ObjectId="268435457" Name="FullGameSave" Value="false" />
+                    <Var ObjectId="268435457" Name="CC_Entities" Value="player" />
+                    <Var ObjectId="268435457" Name="CC_Funcs" Value="OnCollide_Player_Trigger_1" />
+                    <Var ObjectId="268435457" Name="ParentAttachEntity" Value="" />
+                    <Var ObjectId="268435457" Name="ParentAttachUseRotation" Value="true" />
+                    <Var ObjectId="268435457" Name="ParentAttachBody" Value="" />
+                    <Var ObjectId="268435457" Name="ParentAttachLocked" Value="false" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtCallback" Value="" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtCallbackAutoRemove" Value="true" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtCheckCenterOfScreen" Value="true" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtCheckRayIntersection" Value="true" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtMaxDistance" Value="-1" />
+                    <Var ObjectId="268435457" Name="PlayerLookAtCallbackDelay" Value="0" />
+                    <Var ObjectId="268435457" Name="PlayerInteractCallback" Value="" />
+                    <Var ObjectId="268435457" Name="PlayerInteractCallbackAutoRemove" Value="false" />
+                    <Var ObjectId="268435457" Name="CanInteractWithoutCallback" Value="false" />
+                    <Var ObjectId="268435457" Name="MaxFocusDistance" Value="-1" />
+                    <Var ObjectId="268435457" Name="CustomInteractIcon" Value="Default" />
+                </UserVariables>
+            </Area>
+            <Area ID="268435458" Name="spawnpoint_2" CreStamp="1612003021" ModStamp="1612284516" WorldPos="173.516 133.924 -319.487" Rotation="0 -0.776553 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 15 268435458" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268435458" Name="Note" Value="" />
+                    <Var ObjectId="268435458" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+        </Objects>
+    </Section>
+</HPLMapTrack_Area>
