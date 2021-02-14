@@ -1,0 +1,18 @@
+<HPLMapTrack_Area ID="EABAD8269B183541F4E98BA166BCED667682377D" MajorVersion="1" MinorVersion="1">
+    <Section Name="1482803421971816963">
+        <Objects>
+            <Area ID="268435456" Name="Start_Begin_lmao" CreStamp="1610035412" ModStamp="1612606009" WorldPos="12.5 3.29302 4" Rotation="-0 3.14159 -0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 1009 268435456" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268435456" Name="Note" Value="" />
+                    <Var ObjectId="268435456" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+            <Area ID="268442754" Name="Cellar_outside" CreStamp="1613071121" ModStamp="1613071148" WorldPos="10.2404 1.70442 32.9961" Rotation="0 0 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 39797 268442754" AreaType="PlayerStart">
+                <UserVariables>
+                    <Var ObjectId="268442754" Name="Note" Value="" />
+                    <Var ObjectId="268442754" Name="Crouching" Value="false" />
+                </UserVariables>
+            </Area>
+        </Objects>
+    </Section>
+</HPLMapTrack_Area>

@@ -17,6 +17,14 @@
     </VirtualDirectory>
   </VirtualDirectory>
   <VirtualDirectory Name="maps">
+    <VirtualDirectory Name="Chapter 1">
+      <VirtualDirectory Name="01_cellar">
+        <File Name="maps/Chapter 1/01_cellar/cellar_map.hps"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="01_home">
+        <File Name="maps/Chapter 1/01_home/home_map.hps"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
     <VirtualDirectory Name="sample_map">
       <File Name="maps/sample_map/sample_map.hps"/>
     </VirtualDirectory>
@@ -552,7 +560,7 @@
       <CustomBuild Enabled="yes">
         <RebuildCommand/>
         <CleanCommand/>
-        <BuildCommand>AmnesiaRebirth_NoSteam.exe -user Dev -cfg config/main_init_dev.cfg -mod local:dormantdoll</BuildCommand>
+        <BuildCommand>AmnesiaRebirth_NoSteam.exe -user Dev -cfg config/main_init_dev.cfg -mod local:DormantDoll</BuildCommand>
         <PreprocessFileCommand/>
         <SingleFileCommand/>
         <MakefileGenerationCommand/>
