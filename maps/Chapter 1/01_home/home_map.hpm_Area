@@ -7,10 +7,10 @@
                     <Var ObjectId="268435456" Name="Crouching" Value="false" />
                 </UserVariables>
             </Area>
-            <Area ID="268435457" Name="Noname" CreStamp="1612610391" ModStamp="1612610422" WorldPos="10.2692 1.8239 33.0119" Rotation="-0 3.14159 -0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 254 268435457" AreaType="PlayerStart">
+            <Area ID="268442754" Name="Cellar_outside" CreStamp="1613071121" ModStamp="1613071148" WorldPos="10.2404 1.70442 32.9961" Rotation="0 0 0" Scale="0.7 1.9 0.7" Active="true" Mesh="" UID="16 39797 268442754" AreaType="PlayerStart">
                 <UserVariables>
-                    <Var ObjectId="268435457" Name="Note" Value="" />
-                    <Var ObjectId="268435457" Name="Crouching" Value="false" />
+                    <Var ObjectId="268442754" Name="Note" Value="" />
+                    <Var ObjectId="268442754" Name="Crouching" Value="false" />
                 </UserVariables>
             </Area>
         </Objects>
